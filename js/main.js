@@ -18,5 +18,8 @@ testBtn.addEventListener("click", function(){
     catch(err){
         showMessage.innerHTML = "input is " + err;
     }
+    finally{
+        document.getElementById("showMessage").value = "";
+    }
 
 });
